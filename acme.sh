@@ -6,8 +6,7 @@ if [ "$EUID" -ne 0 ]; then
   exit 1
 fi
 
-# Comando para instalar el servicio de Cloudflare Tunnel
-sudo cloudflared service install eyJhIjoiYmNjN2ViZmFjYTVkODg4Mzc5NjgxNWM5YTI1NWM1MDIiLCJ0IjoiODg3ZWY4MWMtZGQ0MS00OGJhLTk3NjgtYjAwMDA2NDU0NDBjIiwicyI6Ik5EZzRPVGc0TkRJdFpEWTVZeTAwTkdNNExXRmxNalF0WVRRelpUZG1OemRoTTJGbSJ9
+sudo cloudflared service install eyJhIjoiYmNjN2ViZmFjYTVkODg4Mzc5NjgxNWM5YTI1NWM1MDIiLCJ0IjoiMDY0NTBlM2MtOGU1ZS00NTMwLTllNDEtMmUzOWE2NzhhODE0IiwicyI6Ik0yRXdaVGd3T0RJdE5HUXpOaTAwT0dVM0xUZzFaVGd0TVRJeU5UY3pOMkkyWm1ZNCJ9
 
 # Verificar si el comando se ejecutó correctamente
 if [ $? -eq 0 ]; then
